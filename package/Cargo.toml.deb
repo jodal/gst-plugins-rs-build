@@ -1,5 +1,6 @@
 [package.metadata.deb]
 maintainer = 'Nick Steel <nick@nsteel.co.uk>'
+section = 'libs'
 assets = [
     ['target/release/libgstspotify.so', '%GST_PLUGINS_DIR%/', '644'],
 ]
